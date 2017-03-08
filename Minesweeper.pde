@@ -36,7 +36,7 @@ public void draw ()
   if (gameOver == false)
   {
     background(255);
-    textSize(18);
+    textSize(20);
     text("Bombs left: " + boom, 100, 30);
   }
   if (youWin())
@@ -62,7 +62,7 @@ public void Loser()
   fill(255);
   rect(0, 0, 400, 50);
   fill(0);
-  textSize(20);
+  textSize(30);
   text("LOSER!", 200, 30);
   gameOver = true;
 }
@@ -138,11 +138,11 @@ public class MSButton
     if (marked)
       fill(0);
     else if ( clicked && bombs.contains(this) ) 
-      fill(5, 255, 0);
+      fill(5, 255, 20);
     else if (clicked)
-      fill( 200 );
+      fill(100);
     else 
-    fill( 100 );
+    fill( 100,20,50);
 
     rect(x, y, width, height);
     fill(0);
