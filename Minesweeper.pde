@@ -37,7 +37,7 @@ public void draw ()
   {
     background(255);
     textSize(20);
-    text("Bombs left: " + boom, 130, 30);
+    text("Bombs left: " + boom, 150, 30);
   }
   if (youWin())
     Winner();
