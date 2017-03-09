@@ -37,7 +37,7 @@ public void draw ()
   {
     background(255);
     textSize(20);
-    text("tranomis: " + boom, 150, 30);
+    text("bombsleft: " + boom, 150, 30);
   }
   if (youWin())
     Winner();
